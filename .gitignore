@@ -1,0 +1,13 @@
+# binarios e objetos
+simulador
+simulador.exe
+test_mmu
+test_mmu.exe
+*.o
+*.obj
+# cache do python (tools/)
+__pycache__/
+*.pyc
+
+# arquivos-fantasma do mount (FUSE)
+.fuse_hidden*
