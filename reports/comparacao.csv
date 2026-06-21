@@ -1,0 +1,4 @@
+algoritmo,acessos,faltas,substituicoes,taxa_falta_pct
+FIFO,600,202,194,33.67
+LRU,600,170,162,28.33
+CLOCK,600,190,182,31.67
