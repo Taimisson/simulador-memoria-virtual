@@ -29,9 +29,13 @@ void mmu_init(MMU *m, int num_processos, AlgoritmoSubstituicao alg, int verbose)
 
 // Libera a memória das tabelas de páginas e destrói o mutex.
 void mmu_destroy(MMU *m) {
+
     free(m->tabelas);
+
     m->tabelas = NULL;
+
     pthread_mutex_destroy(&m->mutex);
+    
 }
 
 // Devolve o caractere se ele for imprimível, senão um ponto (pra não sujar a saída).
