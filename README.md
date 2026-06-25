@@ -9,6 +9,11 @@
   <img alt="Plataformas" src="https://img.shields.io/badge/plataforma-Windows%20%7C%20Linux-2E7D32">
   <img alt="Licença MIT" src="https://img.shields.io/badge/licença-MIT-blue">
   <img alt="Trabalho GB" src="https://img.shields.io/badge/Unisinos-Trabalho%20GB-C0504D">
+  <a href="https://youtu.be/D3vofVNypKw"><img alt="Vídeo da apresentação" src="https://img.shields.io/badge/v%C3%ADdeo-apresenta%C3%A7%C3%A3o-FF0000?logo=youtube&logoColor=white"></a>
+</p>
+
+<p align="center">
+  🎥 <strong>Vídeo da apresentação (~7 min):</strong> <a href="https://youtu.be/D3vofVNypKw">youtu.be/D3vofVNypKw</a>
 </p>
 
 ---
@@ -227,16 +232,15 @@ simulador-memoria-virtual/
 ├── scripts/                 # build / demo / comparar / testar (PowerShell)
 ├── tools/plot_faults.py     # gráfico opcional das faltas
 ├── reports/                 # resultados de execução (CSV)
-├── docs/                    # documentação e apresentação
+├── docs/                    # enunciado (Trabalho GB.pdf) e vídeo da apresentação
 ├── Makefile                 # build no Linux/macOS
 └── README.md
 ```
 
 ## Documentação
 
-- [`docs/arquitetura.md`](docs/arquitetura.md) — decisões de projeto e visão geral.
-- [`docs/estruturas-de-dados.md`](docs/estruturas-de-dados.md) — estruturas usadas (vetor e fila) e a justificativa.
-- [`docs/guia-completo.md`](docs/guia-completo.md) — guia detalhado de **todo** o projeto, com código e analogias.
+- [`docs/Trabalho GB.pdf`](docs/Trabalho%20GB.pdf) — enunciado oficial do trabalho (definição do sistema fictício e rubrica de avaliação).
+- **Vídeo da apresentação (~7 min):** [assista no YouTube](https://youtu.be/D3vofVNypKw) — também incluído na pasta [`docs/`](docs/) do repositório.
 
 ## Mapeamento com a rubrica
 
